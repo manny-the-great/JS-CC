@@ -76,3 +76,10 @@ a {
 
 /* Width and Height in CSS */
 /* COMMENTS IN CSS */
+
+/* Box Model */
+#box {
+  background-color: rgb(255, 111, 0);
+  border: 5px solid rgb(0, 255, 76);
+  border-radius: 15px;
+}
