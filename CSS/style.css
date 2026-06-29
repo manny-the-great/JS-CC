@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* CSS SELECTORS */
+
+#name {
+  background-color: rgb(243, 117, 117);
+}
+
+.cool {
+  background-color: bisque;
+}
+
+/* Child Selector */
+
+div h4 {
+  background-color: aquamarine;
+}
+
+/* Direct Child Selector */
+
+div > p {
+  background-color: black;
+  color: aliceblue;
+}
+
+/* Adjacent/Direct  Sibling Selector */
+div + p {
+  background-color: rgb(185, 128, 238);
+}
+
+/* All Sibling Selector */
+div ~ span {
+  background-color: chartreuse;
+}
+
+/* Attribute Selector */
+a[href="www.google.com"] {
+  color: rgb(243, 5, 104);
+}
+a[href*="wwws"] {
+  color: rgb(255, 157, 0);
+}
+
+/* Colors in CSS */
+/* The Background Property */
+
+/* Text Styling */
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  line-height: 3;
+  text-decoration: line-through;
+}
+
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+#parent {
+  background-color: burlywood;
+  width: 50px;
+  height: 100px;
+}
+
+#child {
+  background-color: rgb(243, 117, 117);
+  width: 50vw;
+  height: 60%;
+}
+
+/* Width and Height in CSS */
+/* COMMENTS IN CSS */
