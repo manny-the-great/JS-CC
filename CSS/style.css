@@ -1,5 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
+  height: 150vh;
 }
 
 /* CSS SELECTORS */
@@ -32,7 +33,7 @@ div + p {
 
 /* All Sibling Selector */
 div ~ span {
-  background-color: chartreuse;
+  background-color: rgb(127, 248, 6);
 }
 
 /* Attribute Selector */
@@ -82,4 +83,32 @@ a {
   background-color: rgb(255, 111, 0);
   border: 5px solid rgb(0, 255, 76);
   border-radius: 15px;
+}
+
+/* Display */
+#display {
+  background-color: coral;
+  height: 40px;
+}
+
+#display_low {
+  color: aliceblue;
+  background-color: rgb(126, 38, 6);
+  height: 40px;
+}
+
+/* Position */
+
+#out {
+  background-color: rgb(186, 111, 216);
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 10px;
+}
+#in {
+  background-color: rgb(82, 0, 115);
+  width: 50px;
+  height: 50px;
+  position: fixed;
 }
