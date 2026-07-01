@@ -83,4 +83,36 @@ console.log(equationTwo);
 
 // Escape Characters
 // \n, \t, \\, \"\",
-console.log('Hello \nAmigos!, I am learning "JavScript"');
+console.log('Hello \nAmigos!, I am learning "JavaScript" again');
+
+// String Functions
+
+let userName = "    MannyTheGreat   ";
+console.log(userName);
+
+// .length fucntion
+console.log(userName.length);
+
+//toUpperCase()
+console.log(userName.toUpperCase());
+
+// toLowerCase()
+console.log(userName.toLowerCase());
+
+// .includes()
+console.log(userName.includes("Manny"));
+
+// .startsWith()
+console.log(userName.startsWith("M"));
+
+// .endsWith()
+console.log(userName.endsWith("t"));
+
+// .indexOf()
+console.log(userName.indexOf("T"));
+
+// .trim()
+console.log(userName.trim());
+
+// .split()
+console.log(userName.split(""));
