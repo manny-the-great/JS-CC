@@ -27,3 +27,8 @@ console.log(isCoding);
 let emptyValue = null;
 console.log(emptyValue);
 console.log(typeof emptyValue);
+
+// Typeof Operator
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof isCoding);
