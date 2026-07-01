@@ -32,3 +32,9 @@ console.log(typeof emptyValue);
 console.log(typeof firstName);
 console.log(typeof age);
 console.log(typeof isCoding);
+
+// The Plus Operator
+console.log("Holla  " + "my friends" + " " + "!");
+
+console.log("10" + "5");
+console.log(10 + 10);
