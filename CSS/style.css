@@ -307,3 +307,43 @@ li:nth-child(2) {
   background: rgb(47, 74, 8);
   color: #ffffff;
 }
+
+/* Animation in CSS */
+#animate {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background: brown;
+  animation: cool 1s linear infinite;
+}
+
+@keyframes cool {
+  /* from {
+    background: brown;
+  }
+  to {
+    background: palevioletred;
+  } */
+
+  0% {
+    background: brown;
+    transform: scale(1) translateX(0);
+  }
+  20% {
+    background: orangered;
+    transform: scale(1.1) translateX(20px);
+  }
+  40% {
+    background: yellowgreen;
+    transform: scale(1);
+  }
+  60% {
+    background: purple;
+  }
+  80% {
+    background: indianred;
+  }
+  100% {
+    background: goldenrod;
+  }
+}
