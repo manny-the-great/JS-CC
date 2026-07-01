@@ -173,7 +173,7 @@ a {
 
 /* Pseudo Classes */
 
-button {
+#pseudo-btn {
   margin-top: 10px;
   background: #b5aaaa;
   border: 1px solid #000000;
@@ -182,7 +182,7 @@ button {
   cursor: pointer;
 }
 
-button:active {
+#pseudo-btn:active {
   background: palevioletred;
   color: #ffffff;
 }
@@ -261,6 +261,8 @@ li:nth-child(2) {
   background: palevioletred;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 1000px) {
   #media {
     width: 300px;
@@ -279,4 +281,29 @@ li:nth-child(2) {
   body {
     background-color: aquamarine;
   }
+}
+
+/* Transform */
+#transform {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  transform: scale(1);
+}
+
+/* Transition */
+
+#transition-btn {
+  margin-top: 10px;
+  background: #b5aaaa;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#transition-btn:hover {
+  background: rgb(47, 74, 8);
+  color: #ffffff;
 }
