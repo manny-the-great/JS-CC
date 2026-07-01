@@ -116,3 +116,8 @@ console.log(userName.trim());
 
 // .split()
 console.log(userName.split(""));
+
+// Template Literals
+let roleName = "Manny Johnson";
+let roleTitle = "Software and Blockchain Dev.";
+console.log(`I am ${roleName}, and I am learning ${roleTitle}`);
