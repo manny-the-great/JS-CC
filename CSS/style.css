@@ -232,3 +232,25 @@ li:nth-child(2) {
   background: orange;
   display: block;
 }
+
+/* Shadows  in CSS */
+#shadow-out {
+  background-color: rgb(186, 111, 216);
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-top: 10px;
+}
+#shadow-in {
+  background-color: rgb(82, 0, 115);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  box-shadow: 5px 14px 0px grey;
+}
+
+#greet {
+  text-shadow: 10px 10px 0 black;
+}
