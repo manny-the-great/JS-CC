@@ -254,3 +254,29 @@ li:nth-child(2) {
 #greet {
   text-shadow: 10px 10px 0 black;
 }
+
+#media {
+  width: 1000px;
+  height: 200px;
+  background: palevioletred;
+}
+
+@media screen and (max-width: 1000px) {
+  #media {
+    width: 300px;
+    height: 100px;
+  }
+  body {
+    background-color: bisque;
+  }
+}
+@media screen and (min-width: 500px) {
+  #media {
+    width: 100px;
+    height: 100px;
+  }
+
+  body {
+    background-color: aquamarine;
+  }
+}
