@@ -38,3 +38,45 @@ console.log("Holla  " + "my friends" + " " + "!");
 
 console.log("10" + "5");
 console.log(10 + 10);
+
+// Arithmetic Operator
+
+// Subtraction
+console.log(30 - 5);
+
+// Addition
+console.log(60 + 40);
+
+// Multiplication
+console.log(10 * 5);
+
+// Division
+console.log(20 / 4);
+
+// Modulus || Remainder
+console.log(10 % 3);
+
+// Power
+console.log(2 ** 3); //2*2*2 = 8
+
+// The += || -= || /= || %=
+let number = 20;
+number += 30; // number = 20 + 30 = 50
+console.log(number);
+
+// Increment
+number++; // Increment by 1
+console.log(number);
+
+// Decremment
+number--; // decrement by 1
+console.log(number);
+
+// The BODMAS & PEDMAS rule
+let equationOne = 10 * 6 + 3;
+// multiplication before addition
+console.log(equationOne);
+
+let equationTwo = 10 * (6 + 3);
+//Bracket before multiplication
+console.log(equationTwo);
