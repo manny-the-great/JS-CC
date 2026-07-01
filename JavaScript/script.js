@@ -80,3 +80,7 @@ console.log(equationOne);
 let equationTwo = 10 * (6 + 3);
 //Bracket before multiplication
 console.log(equationTwo);
+
+// Escape Characters
+// \n, \t, \\, \"\",
+console.log('Hello \nAmigos!, I am learning "JavScript"');
