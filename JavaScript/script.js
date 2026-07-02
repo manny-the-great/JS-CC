@@ -121,3 +121,18 @@ console.log(userName.split(""));
 let roleName = "Manny Johnson";
 let roleTitle = "Software and Blockchain Dev.";
 console.log(`I am ${roleName}, and I am learning ${roleTitle}`);
+
+// Math Functions
+console.log(Math.PI);
+console.log(Math.round(2.9));
+console.log(Math.ceil(9.99));
+console.log(Math.floor(4.5));
+console.log(Math.max(5, 10, 30, 7));
+console.log(Math.min(2, 0.5, 9, 6, 4));
+console.log(Math.sqrt(16));
+console.log(Math.pow(2, 3)); // 2^3
+console.log(Math.abs(-10.5));
+console.log(Math.random());
+console.log(Math.round(Math.random()));
+console.log(Math.random() * 100);
+console.log(Math.round(Math.random() * 100));
