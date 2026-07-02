@@ -257,3 +257,10 @@ function sum(no1, no2) {
 
 let calcSum = sum(40, 60);
 console.log(calcSum);
+
+// Default Values
+function studentGreet(greetings = "MannyTheGreat", enrollYear = 2026) {
+  console.log(`Hello ${greetings}, your enrollment year is ${enrollYear}.`);
+}
+
+studentGreet();
