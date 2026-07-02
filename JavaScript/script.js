@@ -232,3 +232,19 @@ favChar[0] = "Jason";
 favChar[1] = "David";
 favChar[2] = "Jackson";
 console.log(favChar);
+
+// FUNCTIONS
+function welcomeUser(users, iq) {
+  console.log(`Hello ${users}`);
+  console.log("Your IQ is above " + iq);
+}
+
+welcomeUser("amigos", 90);
+welcomeUser("new users", 70);
+
+function addNumbers(num1, num2) {
+  console.log(num1 + num2);
+}
+
+addNumbers(10, 20);
+addNumbers(100, 200);
