@@ -136,3 +136,11 @@ console.log(Math.random());
 console.log(Math.round(Math.random()));
 console.log(Math.random() * 100);
 console.log(Math.round(Math.random() * 100));
+
+// Store User Input Project
+let email = "manny@gmail.com";
+let name = "Manny Johnson";
+let userAge = 23;
+
+console.log(`Welcome ${name},
+your Email is ${email}, and your age is ${userAge}`);
