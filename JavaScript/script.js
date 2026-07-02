@@ -186,3 +186,49 @@ let classList = [
 
 // Accessing the number "0.6" from the array
 console.log(classList[0][1][2]);
+
+// Array functions
+let favChar = ["Goku", "Manny", "Luffy"];
+console.log(favChar);
+
+// The length of the array
+console.log(favChar.length);
+
+// Adding a string to the end of the array
+favChar.push("Shao Khan");
+console.log(favChar);
+console.log(favChar.length);
+
+// Removing an item from the end of an array
+favChar.pop();
+console.log(favChar);
+
+// Adding an item to the beginning of an array
+favChar.unshift("Johnson");
+console.log(favChar);
+
+// Removing an item from the beginning of an array
+favChar.shift();
+console.log(favChar);
+
+// Checking if an array includes an item
+console.log(favChar.includes("Manny"));
+
+// Checking for the index of an item
+console.log(favChar);
+console.log(favChar.indexOf("Goku"));
+
+let greetText = "Holla amigos, I am learning JS";
+// Text into an array
+console.log(greetText.split(" "));
+// Array into text
+console.log(favChar.join(", "));
+// Reversing the order of an array
+console.log(favChar.reverse());
+// Slicing an array
+console.log(favChar.slice(0, 2));
+// Targetting and changing individial item
+favChar[0] = "Jason";
+favChar[1] = "David";
+favChar[2] = "Jackson";
+console.log(favChar);
