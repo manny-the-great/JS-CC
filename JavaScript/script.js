@@ -144,3 +144,20 @@ let userAge = 23;
 
 console.log(`Welcome ${name},
 your Email is ${email}, and your age is ${userAge}`);
+
+// Arrays
+let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+console.log(numbers);
+console.log(numbers[5]); // Output = 5 'cause index 5 is the number 5
+
+let fruits = ["apple", "orange", "banana"];
+console.log(fruits);
+console.log(fruits[1]);
+
+let hasHighPower = [true, false, false, true];
+console.log(hasHighPower[0]);
+
+// Storing different data types with an array
+let theCombo = ["Manny", 24, true, "Giant", null];
+console.log(theCombo);
