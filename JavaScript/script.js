@@ -248,3 +248,12 @@ function addNumbers(num1, num2) {
 
 addNumbers(10, 20);
 addNumbers(100, 200);
+
+// Return in JS Functions
+
+function sum(no1, no2) {
+  return no1 + no2;
+}
+
+let calcSum = sum(40, 60);
+console.log(calcSum);
