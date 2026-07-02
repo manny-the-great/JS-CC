@@ -161,3 +161,28 @@ console.log(hasHighPower[0]);
 // Storing different data types with an array
 let theCombo = ["Manny", 24, true, "Giant", null];
 console.log(theCombo);
+
+// Nested Array
+let ageGroup = [
+  [2, 4, 6],
+  [5, 10, 15],
+  [10, 20, 30],
+];
+console.log(ageGroup[2]);
+
+// To access the number "30" from the list, we say...
+console.log(ageGroup[2][2]);
+
+// Multi-dimensional Arrays
+let classList = [
+  [
+    [0.1, 0.2, 0.3],
+    [0.4, 0.5, 0.6],
+    [0.7, 0.8, 0.9],
+  ],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+// Accessing the number "0.6" from the array
+console.log(classList[0][1][2]);
