@@ -264,3 +264,17 @@ function studentGreet(greetings = "MannyTheGreat", enrollYear = 2026) {
 }
 
 studentGreet();
+
+// Random Quote Generator Project
+let quotes = [
+  "The more you look, the less you see.",
+  "Consistency is key",
+  "God over everything",
+  "Great men never gave up",
+  "With God, all things are possible",
+];
+
+let randomNumber = Math.round(Math.random() * quotes.length - 1);
+console.log(randomNumber);
+
+console.log(quotes[randomNumber]);
