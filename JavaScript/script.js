@@ -278,3 +278,28 @@ let randomNumber = Math.round(Math.random() * quotes.length - 1);
 console.log(randomNumber);
 
 console.log(quotes[randomNumber]);
+
+// Arrow Functions
+
+// Normal Function
+function greetFriend(amigos) {
+  console.log(`Hello ${amigos}`);
+}
+
+greetFriend("Manny");
+
+// Arrow Function
+
+const greetUerArrow = (username) => {
+  console.log(`Hello ${username}`);
+};
+
+greetUerArrow("Johnson");
+
+// Arrow Function without the "return" keyword
+
+const addArrow = (add1, add2) => add1 + add2;
+
+const addNumber = addArrow(60, 40);
+
+console.log(addNumber);
