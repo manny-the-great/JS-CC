@@ -303,3 +303,26 @@ const addArrow = (add1, add2) => add1 + add2;
 const addNumber = addArrow(60, 40);
 
 console.log(addNumber);
+
+// If Statements
+
+// if --- else
+
+let myAge = 24;
+if (myAge >= 20) {
+  console.log(`Hello Manny, you're ${myAge} years old.`);
+} else {
+  console.log(`Your age is not known`);
+}
+
+// if --- else if --- else
+
+let teenClub = 17;
+
+if (teenClub <= 17) {
+  console.log(`You can join the club`);
+} else if (teenClub >= 18) {
+  console.log(`You are already an adult`);
+} else {
+  console.log(`Your age is not known to us`);
+}
