@@ -399,24 +399,17 @@ switch (day) {
     console.log("Please enter a day of the week from Monday to Friday only!");
 }
 
-// if (day === "Monday") {
-//   console.log("It's a Monday, today!");
-// }
-// else if (day === "Tuesday") {
-//   console.log("It's Tuesday, today!");
-// }
-// else if (day === "Wednesday") {
-//   console.log("It's Wednesday, today!");
-// }
-// else if (day === "Thursday") {
-//   console.log("It's Thursday, today!");
-// }
-// else if (day === "Friday") {
-//   console.log("It's Friday, today!");
-// }
-// else if (day === "Saturday") {
-//   console.log("It's Saturday, today!");
-// }
-// else if (day === "Sunday") {
-//   console.log("It's Sundday, today!");
-// }
+// The Ternary Operator
+let accessAge = 24;
+
+let result = age >= 18 ? "You are permitted" : "Go back home";
+console.log(result);
+
+let testAge = 18;
+let testOutput =
+  testAge >= 18
+    ? testAge < 25
+      ? "You are within the age bracket"
+      : "You are not within the age brackte"
+    : "Go back!";
+console.log(testOutput);
