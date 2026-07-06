@@ -326,3 +326,53 @@ if (teenClub <= 17) {
 } else {
   console.log(`Your age is not known to us`);
 }
+
+// Comparison Operators
+// Greater-than
+console.log(10 > 5);
+
+// Greater-than or Equal to
+console.log(20 >= 15);
+
+// Less-than
+console.log(15 < 20);
+
+// Less-than or equal to
+console.log(15 <= 20);
+
+// Loose Equality Operator
+console.log(20 == 20);
+console.log("10" == 10); // It only read the number, not the data type
+
+// Strict Equality Operator
+console.log(20 === 20);
+console.log(20 === "20"); // This checked for the data type
+
+// Loose Not Equal-to
+console.log(10 != 10);
+console.log("15" != 15);
+
+// Strict Not Equal-to
+console.log(20 !== 15);
+console.log("15" !== 15);
+
+// Logical Operators
+let isFast = false;
+let isStrong = true;
+
+// Logical AND
+if (isFast && isStrong) {
+  console.log(`You are fast and strong`);
+} else {
+  console.log(`You are not strong and fast`);
+}
+
+// Logical OR
+if (isFast || isStrong) {
+  console.log(`You are fast or strong`);
+}
+
+// Logical NOT
+if (!isFast) {
+  console.log(`You're not fast`);
+}
