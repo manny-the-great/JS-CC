@@ -413,3 +413,24 @@ let testOutput =
       : "You are not within the age brackte"
     : "Go back!";
 console.log(testOutput);
+
+// Project Coin Flip Game using Ternary Operator
+let coinFlip = Math.round(Math.random());
+console.log(coinFlip);
+
+let flipResult =
+  coinFlip === 1 ? "HEAD" : coinFlip === 0 ? "TAIL" : "NOT IN RANGE";
+coinFlip === 1 ? "HEAD" : "TAIL";
+console.log(flipResult);
+
+// Using Switch Statement for the game
+switch (coinFlip) {
+  case 0:
+    console.log("TAIL");
+    break;
+  case 1:
+    console.log("HEAD");
+    break;
+  default:
+    console.log("Number is not in range");
+}
