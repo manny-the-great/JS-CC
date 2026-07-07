@@ -406,6 +406,7 @@ let result = age >= 18 ? "You are permitted" : "Go back home";
 console.log(result);
 
 let testAge = 18;
+
 let testOutput =
   testAge >= 18
     ? testAge < 25
@@ -426,11 +427,41 @@ console.log(flipResult);
 // Using Switch Statement for the game
 switch (coinFlip) {
   case 0:
-    console.log("TAIL");
+    console.log("TAILS");
     break;
   case 1:
-    console.log("HEAD");
+    console.log("HEADS");
     break;
   default:
     console.log("Number is not in range");
 }
+
+// Scope
+
+// Local Scope
+function outputMessage() {
+  let message = "Hey guys";
+  console.log(message);
+
+  if (1 === 1) {
+    console.log(message);
+  }
+}
+
+// The vaiable decalred within a sub-block cannot be accessed by the main block.
+//console.log(message); // This will throw an error
+
+outputMessage();
+
+// Global Scope
+let greetMessage = "Holla Amigos";
+
+function giveMessage() {
+  console.log(greetMessage);
+}
+
+// console.log(greetMessage); // This will work because the variable was declared outside the scope and can be used anywhere
+
+giveMessage();
+
+// Objects
