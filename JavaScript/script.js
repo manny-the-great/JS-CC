@@ -234,6 +234,14 @@ favChar[2] = "Jackson";
 console.log(favChar);
 
 // FUNCTIONS
+function heyManny() {
+  console.log(heyManny);
+}
+
+heyManny("Hey, I'm Manny");
+
+// Passing parmeters to a function
+
 function welcomeUser(users, iq) {
   console.log(`Hello ${users}`);
   console.log("Your IQ is above " + iq);
@@ -504,3 +512,28 @@ const devProfile = {
   },
   favoriteBrands: ["Chevrolette", "Mercedez", "Lamborghini", "Ferrari", "BMW"],
 };
+
+// Object Functions
+
+const goku = {
+  powerLevel: 9000,
+  punch: function () {
+    console.log("Goku can punch!");
+  },
+  fight: function (enemy) {
+    console.log("Goku can fight " + enemy);
+  },
+  // powerUpgrade: function () {
+  //   this.powerLevel += 1000;
+  // },
+  // short syntax
+  powerUpgrade() {
+    this.powerLevel += 1000;
+  },
+};
+
+goku.punch();
+goku.fight("Savitar😂");
+
+goku.powerUpgrade();
+console.log(goku.powerLevel);
