@@ -448,10 +448,9 @@ function outputMessage() {
   }
 }
 
+outputMessage();
 // The vaiable decalred within a sub-block cannot be accessed by the main block.
 //console.log(message); // This will throw an error
-
-outputMessage();
 
 // Global Scope
 let greetMessage = "Holla Amigos";
@@ -465,3 +464,43 @@ function giveMessage() {
 giveMessage();
 
 // Objects
+
+let mannyJohnson = {
+  height: 180,
+  firstName: "Manny",
+  lastName: "Johnson",
+  income: 0,
+  isSmart: true,
+};
+
+// Accessing all the properties of an object
+console.log(mannyJohnson);
+
+// Accessing the property of an object
+console.log(mannyJohnson.firstName);
+// console.log(mannyJohnson["lastName"]); // Alternative method to access an object
+
+// Adding a property externally
+mannyJohnson.biceps = 100;
+mannyJohnson["weight"] = "80kg";
+
+// Modifying?Overriding an existing property
+mannyJohnson["income"] = "$2k";
+console.log(mannyJohnson);
+
+// Deleting a property
+delete mannyJohnson["isSmart"];
+console.log(mannyJohnson);
+
+// Nested Objects: Objects in an object, and an array in an object
+
+const devProfile = {
+  name: "MannyJ",
+  phone: `+44896645948`,
+  address: {
+    street: "Random Street in UK",
+    city: "Manchester City",
+    country: "Multiverse",
+  },
+  favoriteBrands: ["Chevrolette", "Mercedez", "Lamborghini", "Ferrari", "BMW"],
+};
