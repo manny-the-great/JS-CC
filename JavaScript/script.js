@@ -561,3 +561,40 @@ superman.printPower();
 
 wolverine.printName();
 wolverine.printPower();
+
+// Project: User Profile System.
+class UserProfile {
+  constructor(username, age, country) {
+    this.username = username;
+    this.age = age;
+    this.country = country;
+    this.loginStatus = false;
+  }
+
+  login() {
+    this.loginStatus = true;
+    console.log(`The user ${this.username} is now logged in`);
+  }
+  logout() {
+    this.loginStatus = false;
+    console.log(`The user ${this.username} is now logged out`);
+  }
+
+  getUserInfo() {
+    console.log(`
+      Username: ${this.username}
+      Age: ${this.age}
+      Country: ${this.country}
+      Login Status: ${this.loginStatus}
+      `);
+  }
+}
+
+const manny = new UserProfile("MannyTheGreat", 24, "Multiverse");
+const jonex = new UserProfile("J-Jonex", 19, "London");
+
+manny.logout();
+manny.getUserInfo();
+
+jonex.login();
+jonex.getUserInfo();
