@@ -537,3 +537,27 @@ goku.fight("Savitar😂");
 
 goku.powerUpgrade();
 console.log(goku.powerLevel);
+
+// Classes
+class Superhero {
+  constructor(superheroName, powerForce) {
+    this.superheroName = superheroName;
+    this.powerForce = powerForce;
+  }
+
+  printName() {
+    console.log(this.superheroName);
+  }
+  printPower() {
+    console.log(this.powerForce);
+  }
+}
+
+const superman = new Superhero("Super Man", "200X");
+const wolverine = new Superhero("Wolverine", "100X");
+
+superman.printName();
+superman.printPower();
+
+wolverine.printName();
+wolverine.printPower();
