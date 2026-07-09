@@ -598,3 +598,15 @@ manny.getUserInfo();
 
 jonex.login();
 jonex.getUserInfo();
+
+// Keys, Values, and Entries
+
+const user = {
+  username: "Manny",
+  subscriber: 1300,
+  funds: "$100k",
+};
+
+console.log(Object.keys(user));
+console.log(Object.values(user));
+console.log(Object.entries(user));
