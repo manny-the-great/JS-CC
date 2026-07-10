@@ -630,3 +630,25 @@ Object.freeze(newUser);
 
 newUser.username = "Manny Dev";
 console.log(newUser);
+
+// Primitive and Complex Types
+// Primitive
+let score = 100;
+
+const scoreCopy = score;
+score += 100;
+console.log(score);
+console.log(scoreCopy);
+
+// Complex: an Array or Object
+const scores = [1, 2, 3, 4, 5];
+const userDetail = {
+  name: "Johnson",
+  age: 19,
+  isIntelligent: true,
+};
+
+const scoresCopy = scores;
+scores[0] = 20;
+console.log(scores);
+console.log(scoresCopy);
