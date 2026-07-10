@@ -606,7 +606,27 @@ const user = {
   subscriber: 1300,
   funds: "$100k",
 };
-
+// Key
 console.log(Object.keys(user));
+// value
 console.log(Object.values(user));
+// Entries
 console.log(Object.entries(user));
+// Accessing the entries
+console.log(Object.entries(user)[2][1]);
+
+// Object.freeze
+const newUser = {
+  age: 24,
+  username: "MannyTheGreat",
+};
+
+// Manipulting an object
+newUser.job = "Developer";
+console.log(newUser);
+
+// ======> Using the object.freeze
+Object.freeze(newUser);
+
+newUser.username = "Manny Dev";
+console.log(newUser);
