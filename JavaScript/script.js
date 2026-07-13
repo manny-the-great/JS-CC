@@ -730,3 +730,24 @@ for (let i = 0; i < mortalKombat.length; i++) {
     ${mortalKombat[i]}
     `);
 }
+
+// Nested For Loops
+for (i = 0; i < 3; i++) {
+  for (j = 0; j < 5; j++) {
+    console.log(`Therefore: 
+      I: ${i}
+      J: ${j}`);
+  }
+}
+
+const arrayNumbers = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+for (let arr of arrayNumbers) {
+  for (let number of arr) {
+    console.log(number);
+  }
+}
