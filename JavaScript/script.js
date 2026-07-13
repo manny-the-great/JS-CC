@@ -652,3 +652,28 @@ const scoresCopy = scores;
 scores[0] = 20;
 console.log(scores);
 console.log(scoresCopy);
+
+// Objects in JavaScript
+console.log(typeof console);
+// Breaking the build of console.log
+const console1 = {
+  speed: 100,
+  log(greet = "Hello guys") {
+    // I passed the value into the METHOD/FUNCTION directly from the parameters part
+    console.log(greet);
+  },
+};
+
+console1.log();
+console1.log(typeof console1.log);
+
+Math.random();
+
+// Breaking the build of Math.random()
+const Math1 = {
+  random(randomNumber) {
+    return Math.random(randomNumber);
+  },
+};
+
+console.log(typeof Math1.random());
