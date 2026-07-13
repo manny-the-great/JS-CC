@@ -677,3 +677,56 @@ const Math1 = {
 };
 
 console.log(typeof Math1.random());
+
+// For Loop
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+// While Loop
+let figure = 0;
+
+while (figure < 10) {
+  console.log(figure);
+  figure++;
+}
+
+// Do-while Loop
+let scoreD = 10;
+do {
+  console.log(scoreD);
+  scoreD++;
+} while (scoreD < 10);
+
+// For-in Loop
+const animeChar = {
+  name: "Scorpion 🦂",
+  powerLevel: 10000,
+};
+
+for (let profile in animeChar) {
+  console.log(profile);
+  console.log(animeChar[profile]);
+}
+
+// For-of Loop
+const mortalKombat = [
+  "Liu Kang",
+  "Scorpion",
+  "Shao Khan",
+  "Johnny Cage",
+  "Raiden",
+  "Sub-Zero",
+];
+
+for (let characters of mortalKombat) {
+  console.log(characters);
+}
+
+// Using For Loop to get the same result
+for (let i = 0; i < mortalKombat.length; i++) {
+  console.log(`
+    ${mortalKombat[i]}
+    `);
+}
