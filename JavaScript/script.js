@@ -751,3 +751,28 @@ for (let arr of arrayNumbers) {
     console.log(number);
   }
 }
+
+// converting a string to another data type
+// To Number
+console.log(Number("10") + 20);
+
+// To float
+console.log(parseFloat("10.5") + 30);
+
+// converting a number to a string
+console.log(String(10) + 45); // ===> 1045
+
+// Converting to Boolean
+console.log(Boolean(20));
+console.log(Boolean(0));
+console.log(Boolean(-5));
+console.log(Boolean("Hello"));
+console.log(Boolean(""));
+
+let testUsername = "";
+
+if (testUsername) {
+  console.log("Valid username!");
+} else {
+  console.log("Input a username");
+}
