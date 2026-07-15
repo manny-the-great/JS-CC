@@ -848,3 +848,19 @@ const foundUser = usersArr.find((user) => {
 });
 
 console.log(foundUser);
+
+// Some and Every
+const arraySE = [1, 9, 20, 42, 15, 63];
+
+// SOME method
+
+const somePassed = arraySE.some((num) => {
+  return num > 10;
+});
+console.log(somePassed);
+
+// EVERY method
+const everyPassed = arraySE.every((num) => {
+  return num > 90;
+});
+console.log(everyPassed);
