@@ -864,3 +864,32 @@ const everyPassed = arraySE.every((num) => {
   return num > 90;
 });
 console.log(everyPassed);
+
+// Sort method
+const devRoles = [
+  "DevOps",
+  "Software Dev.",
+  "Blockchain Dev.",
+  "QA Automation Engineer",
+];
+
+console.log(devRoles.sort());
+
+const numSort = [2, 11, 32, 5, 21, 9];
+
+// Sorting according to number order
+console.log(numSort.sort());
+
+// Sorting according to number and the of order value
+console.log(
+  numSort.sort((a, b) => {
+    return a - b;
+  })
+);
+
+// Reverse order of value
+console.log(
+  numSort.sort((a, b) => {
+    return b - a;
+  })
+);
