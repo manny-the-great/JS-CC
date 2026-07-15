@@ -825,3 +825,26 @@ console.log(forEachArr);
 forEachArr.forEach((num) => {
   console.log(num * 10);
 });
+
+// Find Method
+
+const usersArr = [
+  {
+    name: "Manny",
+    powerLevel: 10000,
+  },
+  {
+    name: "Jonex",
+    powerLevel: 12000,
+  },
+  {
+    name: "Ikwish",
+    powerLevel: 15000,
+  },
+];
+
+const foundUser = usersArr.find((user) => {
+  return user.name === "Manny";
+});
+
+console.log(foundUser);
