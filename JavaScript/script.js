@@ -790,15 +790,29 @@ let squareNumArr = numArr.map((num) => num * num);
 console.log(squareNumArr);
 
 // Filter Method
-const filterNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(filterNum);
+const filterArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(filterArr);
 
 // Filter for Even Number
 
-const evenFilter = filterNum.filter((num) => num % 2 === 0);
+const evenFilter = filterArr.filter((num) => num % 2 === 0);
 console.log(evenFilter);
 
 // Filter for Odd Numbers
 
-const oddFilter = filterNum.filter((num) => num % 2 === 1);
+const oddFilter = filterArr.filter((num) => num % 2 === 1);
 console.log(oddFilter);
+
+// Reduce Method
+
+const reduceArr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// const reduceResult = reduceArr.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   0
+// );
+
+const reduceResult = reduceArr.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
+console.log(reduceResult);
