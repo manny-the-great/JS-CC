@@ -776,3 +776,15 @@ if (testUsername) {
 } else {
   console.log("Input a username");
 }
+
+// Map method
+
+const numArr = [2, 4, 6, 8, 10];
+let newNumArr = numArr.map((num) => num * 2);
+console.log(newNumArr);
+
+let tripleNumArr = numArr.map((num) => num * 3);
+console.log(tripleNumArr);
+
+let squareNumArr = numArr.map((num) => num * num);
+console.log(squareNumArr);
