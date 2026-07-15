@@ -816,3 +816,12 @@ const reduceResult = reduceArr.reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 }, 0);
 console.log(reduceResult);
+
+// For each method
+
+const forEachArr = [1, 2, 3, 4, 5];
+console.log(forEachArr);
+
+forEachArr.forEach((num) => {
+  console.log(num * 10);
+});
