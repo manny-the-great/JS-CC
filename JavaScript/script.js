@@ -788,3 +788,17 @@ console.log(tripleNumArr);
 
 let squareNumArr = numArr.map((num) => num * num);
 console.log(squareNumArr);
+
+// Filter Method
+const filterNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(filterNum);
+
+// Filter for Even Number
+
+const evenFilter = filterNum.filter((num) => num % 2 === 0);
+console.log(evenFilter);
+
+// Filter for Odd Numbers
+
+const oddFilter = filterNum.filter((num) => num % 2 === 1);
+console.log(oddFilter);
