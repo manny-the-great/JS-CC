@@ -893,3 +893,43 @@ console.log(
     return b - a;
   })
 );
+
+// PROJECT: Todo App in the console
+
+// The Todo Class
+class Todo {
+  constructor(title) {
+    this.title = title;
+    this.completed = false;
+  }
+
+  completeTodo() {
+    this.completed = true;
+  }
+}
+
+const toDos = [];
+
+function addTodo(title) {
+  const toDo = new Todo(title);
+  toDos.push(toDo);
+}
+
+function changeCompletionStatus(index) {
+  toDos[index].completeTodo();
+}
+
+function removeTodo(index) {
+  toDos.splice(index, 1);
+}
+
+addTodo("Learn Coding");
+addTodo("Go gyming");
+addTodo("Go hiking");
+addTodo("Go skydiving");
+
+changeCompletionStatus(0);
+changeCompletionStatus(1);
+
+removeTodo(0); // Initially, todo was 4, but it's now 3 'cause of the .splice method that was used to reduce the array
+console.log(toDos);
