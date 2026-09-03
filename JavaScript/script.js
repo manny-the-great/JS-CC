@@ -56,12 +56,12 @@ console.log(20 / 4);
 // Modulus || Remainder
 console.log(10 % 3);
 
-// Power
+// Power || Exponent
 console.log(2 ** 3); //2*2*2 = 8
 
 // The += || -= || /= || %=
 let number = 20;
-number += 30; // number = 20 + 30 = 50
+number += 30; // number = number(20) + 30 = 50
 console.log(number);
 
 // Increment
@@ -84,6 +84,10 @@ console.log(equationTwo);
 // Escape Characters
 // \n, \t, \\, \"\",
 console.log('Hello \nAmigos!, I am learning "JavaScript" again');
+// \n = New Line
+// \t = New Tab (Space Bar)
+// \\ = Backslash
+// \"" = Quotation Mark
 
 // String Functions
 
@@ -91,7 +95,7 @@ let userName = "    MannyTheGreat   ";
 console.log(userName);
 
 // .length fucntion
-console.log(userName.length);
+console.log(userName.length); // Even the white spaces are counted as characters.
 
 //toUpperCase()
 console.log(userName.toUpperCase());
@@ -109,13 +113,13 @@ console.log(userName.startsWith("M"));
 console.log(userName.endsWith("t"));
 
 // .indexOf()
-console.log(userName.indexOf("T"));
+console.log(userName.indexOf("T")); // Tells the index position of the string by counting from 0
 
 // .trim()
-console.log(userName.trim());
+console.log(userName.trim()); // Eliminates whitespaces
 
 // .split()
-console.log(userName.split(""));
+console.log(userName.split(" ")); // splits the characters of a string by separating them with a comma, and keeping each character in a quote.
 
 // Template Literals
 let roleName = "Manny Johnson";
@@ -123,19 +127,19 @@ let roleTitle = "Software and Blockchain Dev.";
 console.log(`I am ${roleName}, and I am learning ${roleTitle}`);
 
 // Math Functions
-console.log(Math.PI);
-console.log(Math.round(2.9));
-console.log(Math.ceil(9.99));
-console.log(Math.floor(4.5));
-console.log(Math.max(5, 10, 30, 7));
-console.log(Math.min(2, 0.5, 9, 6, 4));
-console.log(Math.sqrt(16));
-console.log(Math.pow(2, 3)); // 2^3
-console.log(Math.abs(-10.5));
-console.log(Math.random());
-console.log(Math.round(Math.random()));
-console.log(Math.random() * 100);
-console.log(Math.round(Math.random() * 100));
+console.log(Math.PI); // The value of PI
+console.log(Math.round(2.9)); // To the nearest whole number
+console.log(Math.ceil(9.99)); // Rounding up
+console.log(Math.floor(4.5)); // Rounding down
+console.log(Math.max(5, 10, 30, 7)); // Selects the maximum number
+console.log(Math.min(2, 0.5, 9, 6, 4)); // Selects the minimum number
+console.log(Math.sqrt(16)); // The Square root of the number
+console.log(Math.pow(2, 3)); // Power 2^3
+console.log(Math.abs(-10.5)); // The neutral or absolute value of the negative number
+console.log(Math.random()); // Generates random numbers
+console.log(Math.round(Math.random())); // Generates random numbers, and kepps them as a whole number
+console.log(Math.random() * 100); // Generates random numbers, and multiplies them by 100
+console.log(Math.round(Math.random() * 100)); // Generates random numbers, and multiplies them by 100 and rounds it to the nearest whole number
 
 // Store User Input Project
 let email = "manny@gmail.com";
@@ -933,3 +937,5 @@ changeCompletionStatus(1);
 
 removeTodo(0); // Initially, todo was 4, but it's now 3 'cause of the .splice method that was used to reduce the array
 console.log(toDos);
+
+// The new things I am about to do...
