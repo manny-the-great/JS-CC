@@ -143,13 +143,13 @@ console.log(Math.round(Math.random() * 100)); // Generates random numbers, and m
 
 // Store User Input Project
 let email = "manny@gmail.com";
-let name = "Manny Johnson";
+let inputName = "Manny Johnson";
 let userAge = 23;
 
-console.log(`Welcome ${name},
+console.log(`Welcome ${inputName},
 your Email is ${email}, and your age is ${userAge}`);
 
-// Arrays
+// Arrays = A list of items or elements of the same data type
 let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 console.log(numbers);
@@ -157,7 +157,7 @@ console.log(numbers[5]); // Output = 5 'cause index 5 is the number 5
 
 let fruits = ["apple", "orange", "banana"];
 console.log(fruits);
-console.log(fruits[1]);
+console.log(fruits[1]); // Orange has the index of 1
 
 let hasHighPower = [true, false, false, true];
 console.log(hasHighPower[0]);
@@ -166,7 +166,7 @@ console.log(hasHighPower[0]);
 let theCombo = ["Manny", 24, true, "Giant", null];
 console.log(theCombo);
 
-// Nested Array
+// Nested Array = An array inside another array
 let ageGroup = [
   [2, 4, 6],
   [5, 10, 15],
@@ -175,7 +175,7 @@ let ageGroup = [
 console.log(ageGroup[2]);
 
 // To access the number "30" from the list, we say...
-console.log(ageGroup[2][2]);
+console.log(ageGroup[2][2]); // Access the array list of index 2 with the element of number 2
 
 // Multi-dimensional Arrays
 let classList = [
@@ -191,11 +191,11 @@ let classList = [
 // Accessing the number "0.6" from the array
 console.log(classList[0][1][2]);
 
-// Array functions
+// Array functions = used for manipulating arrays and getting other info from an array
 let favChar = ["Goku", "Manny", "Luffy"];
 console.log(favChar);
 
-// The length of the array
+// The length of the array = the number of items in the array
 console.log(favChar.length);
 
 // Adding a string to the end of the array
@@ -218,19 +218,20 @@ console.log(favChar);
 // Checking if an array includes an item
 console.log(favChar.includes("Manny"));
 
-// Checking for the index of an item
+// Checking for the index of an array item
 console.log(favChar);
 console.log(favChar.indexOf("Goku"));
 
 let greetText = "Holla amigos, I am learning JS";
-// Text into an array
+
+// Converting a text into an array
 console.log(greetText.split(" "));
 // Array into text
 console.log(favChar.join(", "));
 // Reversing the order of an array
 console.log(favChar.reverse());
-// Slicing an array
-console.log(favChar.slice(0, 2));
+// Slicing an array = used to extract items
+console.log(favChar.slice(0, 2)); // The two numbers defines where to start and stop. The item that falls on the last index will not be included
 // Targetting and changing individial item
 favChar[0] = "Jason";
 favChar[1] = "David";
