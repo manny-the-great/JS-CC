@@ -238,12 +238,21 @@ favChar[1] = "David";
 favChar[2] = "Jackson";
 console.log(favChar);
 
-// FUNCTIONS
-function heyManny() {
-  console.log(heyManny);
-}
+// FUNCTIONS = for re-using codes
 
-heyManny("Hey, I'm Manny");
+// Passing an argument to a function name
+function heyUser() {
+  console.log(heyUser);
+}
+heyUser("Hey, I'm Manny");
+
+// Calling a function name at the end
+function greetUsers() {
+  console.log("Hello World");
+  console.log("Holla Amigos");
+  console.log("Como Estas");
+}
+greetUsers(); // This is calling the function and it will input all the things logged in the console
 
 // Passing parmeters to a function
 
@@ -262,10 +271,10 @@ function addNumbers(num1, num2) {
 addNumbers(10, 20);
 addNumbers(100, 200);
 
-// Return in JS Functions
+// Return keyword... It sends a value back from a function
 
-function sum(no1, no2) {
-  return no1 + no2;
+function sum(num1, num2) {
+  return num1 + num2;
 }
 
 let calcSum = sum(40, 60);
